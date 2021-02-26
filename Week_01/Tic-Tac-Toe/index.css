@@ -1,0 +1,38 @@
+#board {
+    width: 800px;
+    margin: auto;
+    top: 100px;
+    position: relative;
+}
+#virtual-board {
+    width: 800px;
+    margin: auto;
+    top: -480px;
+    left: -20px;
+    position: relative;
+}
+.cell {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: inline-block;
+    border: solid 1px blue;
+    vertical-align: middle;
+
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    box-sizing:border-box
+}
+.cross {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: middle;
+
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    box-sizing:border-box
+}
